@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="services.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="event_home.html">Events</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <section class="services-container">
+        <h2>What We Offer</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Event Planning</h3>
+                <p>We provide end-to-end event planning services to make your events seamless and stress-free.</p>
+                <button onclick="navigateToEvents()">Explore Events</button>
+            </div>
+            <div class="service-card">
+                <h3>Ticket Booking</h3>
+                <p>Easily book tickets for your favorite events with our user-friendly ticketing system.</p>
+                <button onclick="navigateToRegister()">Register Now</button>
+            </div>
+            <div class="service-card">
+                <h3>Venue Arrangement</h3>
+                <p>We offer tailored venue arrangement services to suit your event's specific needs.</p>
+                <button onclick="showDetails('Venue Arrangement')">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Event Booking. All rights reserved.
+    </footer>
+</body>
+
+</html>

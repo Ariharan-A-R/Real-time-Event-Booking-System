@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="pricing.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Pricing Details</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="event_home.html">Events</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <section class="pricing-container">
+        <h2>Our Pricing Plans</h2>
+        <p>Select an event to view more details or book directly.</p>
+        <table class="pricing-table">
+            <thead>
+                <tr>
+                    <th>Event</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-tooltip="Enjoy live performances by top artists.">Music Fest</td>
+                    <td>$50</td>
+                    <td><button onclick="bookEvent('Music Fest')">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td data-tooltip="Learn and create in this interactive workshop.">Art Workshop</td>
+                    <td>$30</td>
+                    <td><button onclick="bookEvent('Art Workshop')">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td data-tooltip="Network and learn from industry leaders.">Tech Summit</td>
+                    <td>$40</td>
+                    <td><button onclick="bookEvent('Tech Summit')">Book Now</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Event Booking. All rights reserved. | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+
+</html>

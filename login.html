@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <Style>
+        /* Force proper centering for the login container */
+        
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Full viewport height */
+            margin: 0;
+            /* Remove default margins */
+            padding: 0;
+            /* Ensure no padding interferes */
+            background: linear-gradient(to bottom, #f4f4f9, #e9e9f3);
+            /* Optional */
+        }
+        
+        body,
+        html {
+            height: 100%;
+            /* Ensure parent elements have height for flexbox to work */
+            margin: 0;
+            /* Reset default margins */
+        }
+        
+        .login-container {
+            height: calc(100vh - 0px) !important;
+            /* Forcefully set height */
+        }
+    </Style>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <form>
+            <h2>Login</h2>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

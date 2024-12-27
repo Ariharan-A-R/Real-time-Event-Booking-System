@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Event Booking</h1>
+        <nav>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="event_home.html">Events</a>
+            <a href="services.html">Services</a>
+            <a href="price.html">Pricing</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Upcoming Events</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <h3>Music Fest 2024</h3>
+                <p>Experience an unforgettable evening with live performances from top artists.</p>
+                <button onclick="navigateToBooking('Music Fest 2024')">Book Now</button>
+            </div>
+            <div class="event-card">
+                <h3>Art Workshop</h3>
+                <p>Learn from the best in this hands-on workshop designed for aspiring artists.</p>
+                <button onclick="navigateToBooking('Art Workshop')">Book Now</button>
+            </div>
+            <div class="event-card">
+                <h3>Tech Summit</h3>
+                <p>Discover cutting-edge innovations and network with industry leaders.</p>
+                <button onclick="navigateToBooking('Tech Summit')">Book Now</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Event Booking. All rights reserved.
+    </footer>
+</body>
+
+</html>
